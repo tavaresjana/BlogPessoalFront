@@ -2,7 +2,7 @@ import { Postagem } from './Postagem';
 
 export class User {
     public id: number;
-    public name: string;
+    public nome: string;
     public usuario: string;
     public senha: string;
     public foto: string;
