@@ -1,4 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* Esse é o CSS global*/
+
+/*para o descer automático da pág ficar suave*/
 html{
     scroll-behavior: smooth;
+}
+
+/*tamanho de fonte personalizado*/
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}
+
+/*cores*/
+.corRosa{
+    color: #F2D8D5;
 }
