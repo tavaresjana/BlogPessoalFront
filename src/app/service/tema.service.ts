@@ -20,6 +20,8 @@ export class TemaService {
   }
 
   getByIdTema(id: number): Observable<Tema>{
+    console.log(environment.token)
+    console.log(this.token) /*isso é pra ele exibir o que tem na minha variavel, la no console do navegador*/
     return this.http.get<Tema>(`http://localhost:8080/tema/${id}`, this.token)
   }
 

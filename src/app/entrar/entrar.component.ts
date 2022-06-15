@@ -39,5 +39,6 @@ export class EntrarComponent implements OnInit {
       }
     },
   });
+  console.log(this.auth)
 }
 }
