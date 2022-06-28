@@ -27,6 +27,9 @@ export class InicioComponent implements OnInit {
   user: User = new User()
   idUser = environment.id
 
+  key = 'data'
+  reverse = true /*normalmente ele é false e fica do primeiro postado para o útlimo, mas revertemos utilizando true e ficará do último postado para o primeiro*/
+
   constructor(
     private router: Router,
     private postagemService: PostagemService,
